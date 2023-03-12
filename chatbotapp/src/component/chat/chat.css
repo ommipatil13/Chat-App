@@ -1,0 +1,90 @@
+.chatPage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+
+.header{
+    background-color: rgb(209, 32, 32);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > h2{
+    color: white;
+    margin: 2.5vmax;
+}
+
+/* .header img */
+.header >a>img{                
+    margin: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+    ;
+}
+
+.header>img:hover{
+    transform: scale(1.2);
+}
+
+.chatBox{
+    /* border: 0.2vmax solid black; */
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.inputBox{
+    /* border-top: 0.2vmax solid black; */
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* id di h thats why # aayega samja  */
+#chatInput{
+  
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    font-size: 1.2vmax;
+    /* niche kyuki none kar rakha */
+    border-top: 0.2vmax solid rgb(143, 133, 133);
+}
+
+.sendBtn{
+    background-color: rgb(209, 32, 32);
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.sendBtn > img {
+    width: 3vmax;
+    filter: brightness(100) invert() ;
+    transition: all 0.3s ;
+}
+
+.sendBtn:hover{
+    background-color: rgb(145, 11, 11) ;
+}
+
+.sendBtn:hover img{
+    transform: translateX(+10px);
+}
